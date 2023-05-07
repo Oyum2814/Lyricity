@@ -25,7 +25,7 @@ export default function SearchBar() {
       url: "https://genius-song-lyrics1.p.rapidapi.com/song/lyrics/",
       params: { id: "2851948" },
       headers: {
-        "X-RapidAPI-Key": "44f4e2cbc2msh9393938b93d8211p1a93cfjsn60837be54187",
+        "X-RapidAPI-Key": "a78cb6a584msh9ad45bb68eaecf3p180f49jsn289fa2db8ab6",
         "X-RapidAPI-Host": "genius-song-lyrics1.p.rapidapi.com",
       },
     };
