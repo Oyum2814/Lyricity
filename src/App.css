@@ -6,3 +6,6 @@ body{
 .lyrics,.mont{
     font-family: 'Montserrat', sans-serif;
 }
+a{
+    pointer-events: none;
+}

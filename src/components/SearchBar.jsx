@@ -8,9 +8,7 @@ export default function SearchBar() {
   const [lyrics, setLyrics] = useState();
   const [name, setName] = useState("Never gonna give you up");
   const [singer, setSinger] = useState("Rick Astley");
-  const [songImage, setSongImage] = useState(
-    "https://imgs.smoothradio.com/images/191589?width=1200&crop=1_1&signature=KHg-WnaLlH9KsZwE-qYgxTkaSpU="
-  );
+  const [songImage, setSongImage] = useState("");
 
   const searchSong = () => {
     setSongInput(inputText);
