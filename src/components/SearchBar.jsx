@@ -74,14 +74,14 @@ export default function SearchBar() {
     <div>
       <div className="flex flex-col mt-[5rem] justify-center items-center sm:flex-row">
         <input
-          className="w-[80%] rounded-lg p-4 bg-[#CAF0F8] md:w-[50%] text-black"
+          className="w-[80%] rounded-[20px] p-4 bg-[#CAF0F8] md:w-[54%] text-black shadow-lg"
           placeholder="Song Name"
           required
           onChange={handleChange}
         />
         <button
           onClick={searchSong}
-          className=" py-4 bg-[#0097D8]  rounded-[11px] w-1/2 text-center mt-4  text-white  text-xl cursor-pointer md:w-[15%] md:mt-0 md:mx-2 md:hover:bg-[#0a4c68]"
+          className=" py-4 bg-[#0097D8]  rounded-[20px] w-1/2 text-center mt-4  text-white shadow-lg  text-xl cursor-pointer md:w-[15%] md:mt-0 md:mx-2 md:hover:bg-[#0a4c68]"
         >
           Search
         </button>
