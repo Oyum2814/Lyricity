@@ -72,7 +72,7 @@ export default function SearchBar() {
   }, [songInput]);
   return (
     <div>
-      <div className="flex flex-col mt-[5rem] justify-center items-center sm:flex-row">
+      <div className="flex flex-col mt-[2rem] justify-center items-center sm:flex-row">
         <input
           className="w-[80%] rounded-[20px] p-4 bg-[#CAF0F8] md:w-[55%] text-black shadow-md ]"
           placeholder="Search your song here..." 
@@ -81,7 +81,7 @@ export default function SearchBar() {
         />
         <button
           onClick={searchSong}
-          className=" py-4 bg-[#0097D8]  rounded-[20px] w-1/2 text-center mt-4  text-white shadow-md shadow-[#0097D8]  text-xl cursor-pointer md:w-[16%] md:mt-0 md:mx-2 md:hover:bg-[#0a4c68]"
+          className=" py-3 bg-[#0097D8]  rounded-[20px] w-1/2 text-center mt-4  text-white shadow-md shadow-[#0097D8]  text-xl cursor-pointer md:w-[16%] md:mt-0 md:mx-2 md:hover:bg-[#0a4c68]"
         >
           Search
         </button>
@@ -89,7 +89,7 @@ export default function SearchBar() {
       <div>
         <div className="my-20 flex justify-center items-center flex-col md:flex-row">
           <AlbumDesc sName={name} sSinger={singer} sSongImage={songImage} />
-          <div className="lyrics w-[80%] h-1/4 font-bold rounded-[20px] p-4 text-center md:w-[50%] md:h-[28rem] md:overflow-y-scroll md:bg-[#CAF0F8]">
+          <div className="lyrics w-[80%] h-1/4 font-bold rounded-[20px] p-4 text-center md:w-[45%] md:h-[50vh] md:overflow-y-scroll scrollbar-thin scrollbar-thumb-[#0097D8] scrollbar-track-transparent md:bg-[#CAF0F8]">
             <div dangerouslySetInnerHTML={{ __html: lyrics }} />
           </div>
         </div>

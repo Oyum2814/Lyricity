@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
 
 body{
-    background-color: #8dd7ff;
+    background-repeat: round;
 }
 .lyrics,.mont{
     font-family: 'Montserrat', sans-serif;
+}
+.greatvibes{
+    font-family: 'Great Vibes', cursive;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
 }
 a{
     pointer-events: none;
